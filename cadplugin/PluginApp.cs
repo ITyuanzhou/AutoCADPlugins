@@ -38,6 +38,8 @@ namespace cadplugin
                 //初始化RibbonMenu
                 Autodesk.AutoCAD.Ribbon.RibbonServices.RibbonPaletteSetCreated += new EventHandler(RibbonServices_RibbonPaletteSetCreated);
                
+                //测试一下
+
 
             }
             catch (System.Exception ex)
