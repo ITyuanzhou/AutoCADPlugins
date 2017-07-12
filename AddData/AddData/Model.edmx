@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="BimAnalysisDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="cad_block">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="depart_type" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="block_major" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="block_size" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="block_path" Type="nvarchar" MaxLength="500" Nullable="false" />
+          <Property Name="new_block" Type="bit" Nullable="false" />
+          <Property Name="valid" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="BimAnalysisDbModelStoreContainer">
+          <EntitySet Name="cad_block" EntityType="Self.cad_block" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BimAnalysisDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="cad_block">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="depart_type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="block_major" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="block_size" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="block_path" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="new_block" Type="Boolean" Nullable="false" />
+          <Property Name="valid" Type="Boolean" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="BimAnalysisDbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="cad_block" EntityType="Self.cad_block" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BimAnalysisDbModelStoreContainer" CdmEntityContainer="BimAnalysisDbEntities">
+          <EntitySetMapping Name="cad_block">
+            <EntityTypeMapping TypeName="BimAnalysisDbModel.cad_block">
+              <MappingFragment StoreEntitySet="cad_block">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="depart_type" ColumnName="depart_type" />
+                <ScalarProperty Name="block_major" ColumnName="block_major" />
+                <ScalarProperty Name="block_size" ColumnName="block_size" />
+                <ScalarProperty Name="block_path" ColumnName="block_path" />
+                <ScalarProperty Name="new_block" ColumnName="new_block" />
+                <ScalarProperty Name="valid" ColumnName="valid" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

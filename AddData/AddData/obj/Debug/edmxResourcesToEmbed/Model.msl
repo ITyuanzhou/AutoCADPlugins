@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BimAnalysisDbModelStoreContainer" CdmEntityContainer="BimAnalysisDbEntities">
+    <EntitySetMapping Name="cad_block">
+      <EntityTypeMapping TypeName="BimAnalysisDbModel.cad_block">
+        <MappingFragment StoreEntitySet="cad_block">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="depart_type" ColumnName="depart_type" />
+          <ScalarProperty Name="block_major" ColumnName="block_major" />
+          <ScalarProperty Name="block_size" ColumnName="block_size" />
+          <ScalarProperty Name="block_path" ColumnName="block_path" />
+          <ScalarProperty Name="new_block" ColumnName="new_block" />
+          <ScalarProperty Name="valid" ColumnName="valid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

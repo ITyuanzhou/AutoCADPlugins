@@ -1,0 +1,11 @@
+D:\workspace\cadplugin\AddData\AddData\bin\Debug\AddData.exe.config
+D:\workspace\cadplugin\AddData\AddData\bin\Debug\AddData.exe
+D:\workspace\cadplugin\AddData\AddData\bin\Debug\AddData.pdb
+D:\workspace\cadplugin\AddData\AddData\bin\Debug\EntityFramework.dll
+D:\workspace\cadplugin\AddData\AddData\bin\Debug\EntityFramework.xml
+D:\workspace\cadplugin\AddData\AddData\bin\Debug\zh-Hans\EntityFramework.resources.dll
+D:\workspace\cadplugin\AddData\AddData\obj\Debug\AddData.exe
+D:\workspace\cadplugin\AddData\AddData\obj\Debug\AddData.pdb
+D:\workspace\cadplugin\AddData\AddData\obj\Debug\AddData.csprojResolveAssemblyReference.cache
+D:\workspace\cadplugin\AddData\AddData\obj\Debug\AddData.Form1.resources
+D:\workspace\cadplugin\AddData\AddData\obj\Debug\AddData.csproj.GenerateResource.Cache
