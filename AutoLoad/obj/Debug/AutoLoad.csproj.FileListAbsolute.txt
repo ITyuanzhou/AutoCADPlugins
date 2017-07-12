@@ -5,3 +5,10 @@ D:\workspace\cadplugin\AutoLoad\obj\Debug\AutoLoad.Properties.Resources.resource
 D:\workspace\cadplugin\AutoLoad\obj\Debug\AutoLoad.csproj.GenerateResource.Cache
 D:\workspace\cadplugin\AutoLoad\obj\Debug\AutoLoad.exe
 D:\workspace\cadplugin\AutoLoad\obj\Debug\AutoLoad.pdb
+D:\workspace\AutoCADPlugins\AutoLoad\bin\Debug\AutoLoad.exe
+D:\workspace\AutoCADPlugins\AutoLoad\bin\Debug\AutoLoad.pdb
+D:\workspace\AutoCADPlugins\AutoLoad\obj\Debug\AutoLoad.FormAutoLoad.resources
+D:\workspace\AutoCADPlugins\AutoLoad\obj\Debug\AutoLoad.Properties.Resources.resources
+D:\workspace\AutoCADPlugins\AutoLoad\obj\Debug\AutoLoad.csproj.GenerateResource.Cache
+D:\workspace\AutoCADPlugins\AutoLoad\obj\Debug\AutoLoad.exe
+D:\workspace\AutoCADPlugins\AutoLoad\obj\Debug\AutoLoad.pdb
