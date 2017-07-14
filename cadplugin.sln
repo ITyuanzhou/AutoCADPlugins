@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cadplugin", "cadplugin\cadplugin.csproj", "{7CE72991-569D-4FB8-92CB-3C647216F0B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cadplugin_4.5", "cadplugin\cadplugin_4.5.csproj", "{7CE72991-569D-4FB8-92CB-3C647216F0B2}"
 EndProject
 Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "acad", "..\..\Program Files\Autodesk\AutoCAD 2016\acad.exe", "{546AE542-340E-4E4B-8522-07AB8A460AA5}"
 	ProjectSection(DebuggerProjectSystem) = preProject
@@ -19,6 +19,8 @@ Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "acad", "..\..\Program Files
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLoad", "AutoLoad\AutoLoad.csproj", "{2EA37D00-801A-4743-AEEE-CEAC196447A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cadplugin_3.5", "cadplugin_3.5\cadplugin_3.5.csproj", "{A0A7995F-B286-49D3-A451-E7B6E68EC042}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +50,14 @@ Global
 		{2EA37D00-801A-4743-AEEE-CEAC196447A3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2EA37D00-801A-4743-AEEE-CEAC196447A3}.Release|x64.ActiveCfg = Release|Any CPU
 		{2EA37D00-801A-4743-AEEE-CEAC196447A3}.Release|x64.Build.0 = Release|Any CPU
+		{A0A7995F-B286-49D3-A451-E7B6E68EC042}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A7995F-B286-49D3-A451-E7B6E68EC042}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A7995F-B286-49D3-A451-E7B6E68EC042}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A0A7995F-B286-49D3-A451-E7B6E68EC042}.Debug|x64.Build.0 = Debug|Any CPU
+		{A0A7995F-B286-49D3-A451-E7B6E68EC042}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A7995F-B286-49D3-A451-E7B6E68EC042}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A7995F-B286-49D3-A451-E7B6E68EC042}.Release|x64.ActiveCfg = Release|Any CPU
+		{A0A7995F-B286-49D3-A451-E7B6E68EC042}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

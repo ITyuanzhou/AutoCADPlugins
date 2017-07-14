@@ -1,0 +1,11 @@
+D:\workspace\AutoCADPlugins\cadplugin\bin\Debug\cadplugin.dll
+D:\workspace\AutoCADPlugins\cadplugin\bin\Debug\cadplugin.pdb
+D:\workspace\AutoCADPlugins\cadplugin\bin\Debug\AcCui.dll
+D:\workspace\AutoCADPlugins\cadplugin\bin\Debug\AcWindows.dll
+D:\workspace\AutoCADPlugins\cadplugin\bin\Debug\AdWindows.dll
+D:\workspace\AutoCADPlugins\cadplugin\obj\Debug\cadplugin_4.5.csproj.ResolveComReference.cache
+D:\workspace\AutoCADPlugins\cadplugin\obj\Debug\cadplugin.PickPointDialog.resources
+D:\workspace\AutoCADPlugins\cadplugin\obj\Debug\cadplugin.PaletteSet.resources
+D:\workspace\AutoCADPlugins\cadplugin\obj\Debug\cadplugin_4.5.csproj.GenerateResource.Cache
+D:\workspace\AutoCADPlugins\cadplugin\obj\Debug\cadplugin.dll
+D:\workspace\AutoCADPlugins\cadplugin\obj\Debug\cadplugin.pdb
