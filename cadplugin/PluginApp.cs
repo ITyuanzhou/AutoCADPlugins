@@ -37,18 +37,12 @@ namespace cadplugin
 
                 //初始化RibbonMenu
                 Autodesk.AutoCAD.Ribbon.RibbonServices.RibbonPaletteSetCreated += new EventHandler(RibbonServices_RibbonPaletteSetCreated);
-               
-
-
             }
             catch (System.Exception ex)
             {
                 aced.WriteMessage("\n 初始化AutoCAD CMCU插件失败");
                 aced.WriteMessage("\n{0}", ex.ToString());
             }
-           
-
-          
         }
 
 

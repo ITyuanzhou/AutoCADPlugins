@@ -1,0 +1,5 @@
+D:\workspace\AutoCADPlugins\cadplugin_3.5\bin\Debug\cadplugin_3.5.dll
+D:\workspace\AutoCADPlugins\cadplugin_3.5\bin\Debug\cadplugin_3.5.pdb
+D:\workspace\AutoCADPlugins\cadplugin_3.5\obj\Debug\cadplugin_3.5.csprojResolveAssemblyReference.cache
+D:\workspace\AutoCADPlugins\cadplugin_3.5\obj\Debug\cadplugin_3.5.dll
+D:\workspace\AutoCADPlugins\cadplugin_3.5\obj\Debug\cadplugin_3.5.pdb
